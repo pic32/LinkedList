@@ -428,7 +428,9 @@ LINKED_LIST *CreateLinkedList(LINKED_LIST *LinkedListToCreate, INT32 (*CompareTo
 						return (UINT32)Index;
 				}
 				else
+				{
 					return (UINT32)Index;
+				}
 			}
 				
 			TempNode = (LINKED_LIST_NODE*)(TempNode->Next);
